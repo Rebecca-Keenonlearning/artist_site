@@ -20,10 +20,10 @@
         </div>
         <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="index.html" id="nav_home">Home</a></li>
+                <li><a href="about.html" id="nav_about">About</a></li>
+                <li><a href="gallery.html" id="nav_gall">Gallery</a></li>
+                <li><a href="contact.html" id="nav_cont">Contact</a></li>
             </ul>
         </div>
         <span class="navTrigger">
@@ -86,6 +86,12 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        // $(".active").removeClass("active");
+        $("#nav_cont").addClass("activelink");
+    </script>
 
 </body>
 

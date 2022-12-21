@@ -70,6 +70,10 @@ body {
     color: #00E676;
 }
 
+.activelink {
+    color: #00E676!important;
+}
+
 /* gallery */
 body {
     background-color: #1d1d1d !important;
